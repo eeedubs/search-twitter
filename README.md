@@ -9,7 +9,8 @@ Search-Twitter is a simple React.js application which employs Twitter and Google
 
 ## Screenshots
 
-!![Authentication Screen]()
+![Authentication page - screenshot](https://github.com/eeedubs/search-twitter/blob/master/docs/Authentication.png)
+![Searching for tweets - screenshot](https://github.com/eeedubs/search-twitter/blob/master/docs/Searched-Tweets.png)
 
 
 ### Dependencies
