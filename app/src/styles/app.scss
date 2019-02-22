@@ -1,0 +1,75 @@
+.app {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  width: 1080px;
+  max-width: 100%;
+  background-color: d0dfff;
+}
+
+.authenticated-app {
+  display: block;
+  width: 100%;
+}
+
+.socialAuth {
+  display: flex;
+  text-align: center;
+  margin-top: 10%;
+  width: 30%;
+}
+
+.twitter {
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  border-radius: 0;
+}
+
+.credentials {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.logout-button {
+  width: 15vh;
+  background-color: #557cce;
+}
+
+.search-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.search-form {
+  width: 100%;
+}
+
+.search-field {
+  width: 60%;
+}
+
+.search-results {
+  width: 100%;
+}
+.tweet-container {
+  align-self: center;
+}
+
+.tweet {
+  width: 100%;
+  border: 1px solid black;
+}
