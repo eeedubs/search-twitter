@@ -7,6 +7,10 @@ Search-Twitter
 
 Search-Twitter is a simple React.js application which employs Twitter and Google APIs for authentication. Once authenticated, users can enter a query in an input field to search for the 20 most recent tweets which match the query.
 
+## Screenshots
+
+!![Authentication Screen]()
+
 
 ### Dependencies
 
@@ -31,3 +35,7 @@ Search-Twitter is a simple React.js application which employs Twitter and Google
 6. Navigate to the ./app directory and start the web server using the `npm start` command. The app will be served at <http://localhost:3000/>.
 7. Navigate to the ./backend directory and run the commands `mongod` and `npm start` using two terminal windows. You should have three terminal windows open while running this project.
 8. Go to <http://localhost:3000/> in your browser.
+
+## Limitations
+
+1. You cannot use the same e-mail address to log in with both Twitter and Google. This application only supports one authentication method per e-mail address. 

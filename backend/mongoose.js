@@ -5,7 +5,7 @@ var Schema = mongoose.Schema;
 
 module.exports = function () {
 
-    var db = mongoose.connect('mongodb://localhost:27017/idyaflow', { useNewUrlParser: true });
+    var db = mongoose.connect('mongodb://localhost:27017/twitter-authenticator', { useNewUrlParser: true });
 
     var UserSchema = new Schema({
         email: {
